@@ -10,7 +10,7 @@ kittens.unshift("Bob");
 
 function destructivelyRemoveLastKitten() {
 kittens.pop();
-  }
+}
 
 function destructivelyRemoveFirstKitten() {
 kittens.shift();
@@ -25,7 +25,7 @@ return [name,...kittens];
 }
 
 function removeLastKitten() {
-
+return kittens.slice(0,kittens.length - 1);
 }
 
 function removeFirstKitten() {
